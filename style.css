@@ -20,12 +20,20 @@ header {
 
 .nav-header {
     display: flex;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 1.1rem;
 }
 
 .nav-min {
-    flex: 0 1 20%;
+    flex: 0 0 20%;
+    background-color: orange;
+    border: 2px;
+    border-style: dashed;
+}
+
+#nav-mag {
+    flex: 0 0 60%;
     background-color: orange;
     border: 2px;
     border-style: dashed;
@@ -46,19 +54,14 @@ header {
     padding: 5px;
 }
 
-#nav-mag {
-    flex: 0 1 60%;
-    background-color: orange;
-    border: 2px;
-    border-style: dashed;
-}
 
 /* SECONDA PARTE */
 
 .headsection {
     background-color: darkblue;
     display: flex;
-    padding: 35px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 #title {
@@ -75,12 +78,14 @@ header {
 
 .color-white {
     background-color: whitesmoke;
-    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .color-grey {
     background-color: rgb(204, 204, 204);
-    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 #color-green {
@@ -122,17 +127,25 @@ footer {
 
 .flex-div {
     display: flex;
-    flex-direction: row;
     padding-top: 10px;
     padding-bottom: 25px;
 }
 
-.foot-min {
+#foot-min {
+    display: flex;
+    flex: 0 0 60%;
+    height: 500px;
+    border: 2px;
+    border-style: dashed;
+}
+
+.foot-min2 {
     background-color: #20B1A9;
     border: 2px;
     border-style: dashed;
-    height: 500px;
-    flex: 0 0 15%;
+    border-color: white;
+    height: 100%;
+    flex: 0 0 25%;
 }
 
 #foot-mag {
@@ -145,6 +158,7 @@ footer {
 
 hr {
     color: white;
+    margin-bottom: 25px;
 }
 
 #end-footer {
