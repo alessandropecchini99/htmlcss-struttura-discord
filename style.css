@@ -5,7 +5,7 @@
 }
 
 .conteiner {
-    width: 80%;
+    width: 1000px;
     margin-inline: auto;
 }
 
@@ -21,19 +21,33 @@ header {
 .nav-header {
     display: flex;
     padding: 20px;
+    font-size: 1.1rem;
 }
 
 .nav-min {
     flex: 0 1 20%;
-    height: 40px;
     background-color: orange;
     border: 2px;
     border-style: dashed;
 }
 
+#right {
+    text-align: right;
+    padding: 5px;
+}
+
+#left {
+    text-align: left;
+    padding: 5px;
+}
+
+#center {
+    text-align: center;
+    padding: 5px;
+}
+
 #nav-mag {
     flex: 0 1 60%;
-    height: 40px;
     background-color: orange;
     border: 2px;
     border-style: dashed;
@@ -69,6 +83,13 @@ header {
     padding: 40px;
 }
 
+#color-green {
+    background-color: green;
+    height: 700px;
+    border: 2px;
+    border-style: dashed;
+}
+
 main {
     display: flex;
 }
@@ -94,5 +115,49 @@ main {
 
 footer {
     background-color: rgb(46, 46, 46);
-    height: 100px;
+}
+
+
+/* SEZIONI ROSSE E AZZURRRE */
+
+.flex-div {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.foot-min {
+    background-color: #20B1A9;
+    border: 2px;
+    border-style: dashed;
+    height: 500px;
+    flex: 0 0 15%;
+}
+
+#foot-mag {
+    background-color: rgb(242, 121, 121);
+    border: 2px;
+    border-style: dashed;
+    height: 500px;
+    flex: 0 0 40%;
+}
+
+hr {
+    color: white;
+}
+
+#end-footer {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.button {
+    background-color: rgb(248, 173, 207);
+    border: 2px;
+    border-style: dashed;
+    padding: 5px;
 }
