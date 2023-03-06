@@ -4,3 +4,95 @@
     box-sizing: border-box;
 }
 
+.conteiner {
+    width: 80%;
+    margin-inline: auto;
+}
+
+
+/*------------ HEADER ------------*/
+
+header {
+    background-color: rgb(153, 223, 251);
+}
+
+/* PRIMA PARTE */
+
+.nav-header {
+    display: flex;
+    padding: 20px;
+}
+
+.nav-min {
+    flex: 0 1 20%;
+    height: 40px;
+    background-color: orange;
+    border: 2px;
+    border-style: dashed;
+}
+
+#nav-mag {
+    flex: 0 1 60%;
+    height: 40px;
+    background-color: orange;
+    border: 2px;
+    border-style: dashed;
+}
+
+/* SECONDA PARTE */
+
+.headsection {
+    background-color: darkblue;
+    display: flex;
+    padding: 35px;
+}
+
+#title {
+    height: 300px;
+    margin-inline: auto;
+    background-color: rgb(255, 120, 188);
+    flex: 0 0 60%;
+    border: 2px;
+    border-style: dashed;
+}
+
+
+/*------------ MAIN ------------*/
+
+.color-white {
+    background-color: whitesmoke;
+    padding: 40px;
+}
+
+.color-grey {
+    background-color: rgb(204, 204, 204);
+    padding: 40px;
+}
+
+main {
+    display: flex;
+}
+
+.image {
+    background-color: blue;
+    border: 2px;
+    border-style: dashed;
+    height: 300px;
+    flex: 0 0 35%;
+}
+
+.article {
+    background-color: pink;
+    border: 2px;
+    border-style: dashed;
+    height: 300px;
+    flex: 0 0 65%;
+}
+
+
+/*------------ FOOTER ------------*/
+
+footer {
+    background-color: rgb(46, 46, 46);
+    height: 100px;
+}
