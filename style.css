@@ -16,7 +16,7 @@ header {
     background-color: rgb(153, 223, 251);
 }
 
-/* PRIMA PARTE */
+/* PRIMA PARTE - NAV */
 
 .nav-header {
     display: flex;
@@ -55,20 +55,23 @@ header {
 }
 
 
-/* SECONDA PARTE */
+/* SECONDA PARTE - TITOLO */
 
 .headsection {
     background-color: darkblue;
-    display: flex;
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+.headsection .conteiner {
+    display: flex;
 }
 
 #title {
     height: 300px;
     margin-inline: auto;
     background-color: rgb(255, 120, 188);
-    flex: 0 0 60%;
+    flex: 0 0 80%;
     border: 2px;
     border-style: dashed;
 }
